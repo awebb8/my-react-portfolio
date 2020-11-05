@@ -5,6 +5,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,13 +16,14 @@ function App() {
           <Route exact path={["/", "/about"]}>
             <About />
           </Route>
-          <Route exact path="/contact">
+          <Route exact path={"/contact"}>
             <Contact />
           </Route>
-          <Route exact path="/portfolio">
+          <Route exact path={"/portfolio"}>
             <Portfolio />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
