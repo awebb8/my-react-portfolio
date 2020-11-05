@@ -1,0 +1,22 @@
+/* card style */
+.card .card-header {
+    background-color: #ffffff;
+    padding: 0;
+}
+
+.card .card-body {
+    padding: 20px 0px 20px 0px;
+}
+
+.card .card-body .card-text img {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+/* Media screen for image */
+@media (max-width: 420px) {
+    .card .img {
+        width: 100%!important;
+    }
+}

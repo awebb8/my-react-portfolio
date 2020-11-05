@@ -1,0 +1,50 @@
+/* card style */
+.card .card-header {
+    background-color: #ffffff;
+    padding: 0;
+}
+
+.card .card-body {
+    padding: 20px 0px 20px 0px;
+}
+
+/* image style */
+figcaption {
+  display: block;
+}
+
+img {
+    margin-top: 20px;
+}
+
+.left {
+  margin-right: 20px;
+}
+
+.crop {
+  width: 350px;
+  height: 350px;
+  border: 2px solid #9a6d3e;
+  object-fit: cover;
+  overflow: hidden;
+}
+.crop img {
+  margin: 10px 0px 0px 0px;
+  width: 90%;
+}
+
+/* These rules take effect when the browser's width
+  is either 768px or less. */
+@media screen and (max-width: 768px) {
+  .crop {
+    width: 100%!important;
+    height: 100%!important;
+    border: 2px solid #9a6d3e;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .crop img {
+    margin: 10px 0px 0px 0px;
+    width: 90%;
+  }
+}
