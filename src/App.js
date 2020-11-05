@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
