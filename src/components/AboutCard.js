@@ -7,7 +7,7 @@ function AboutCard() {
         <section className="container-fluid mx-4 my-5">
             <div className="row">
                 <div className="col-md-9">
-                    <div className="card">
+                    <div className="card main-card">
                         <div className="card-header">
                         <h1>About Me</h1>
                         </div>

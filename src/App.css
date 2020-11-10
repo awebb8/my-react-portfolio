@@ -8,6 +8,7 @@ body {
 /* navbar style */
 .navbar {
   background-color: #7e9d7b!important;
+  width: 100%
 }
 
 .navbar-brand {
@@ -28,11 +29,11 @@ h1 {
 }
 
 /* card style */
-.card {
+.main-card {
   padding: 30px;
   margin-bottom: 100px;
-  border: 3px solid #3c625f;
-  border-radius: 10px;
+  border: 3px solid #3c625f!important;
+  border-radius: 10px!important;
 }
 
 /* footer style */
