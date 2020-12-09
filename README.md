@@ -1,9 +1,10 @@
 # my-react-portfolio
 
 ## The Repository
-This site is stored in the "my-react-portfolio" repository on Alix's github account (username: awebb8). This repository is public. 
-Link to repository: https://github.com/awebb8/my-react-portfolio
-Link to deployed site: https://alix-react-portfolio.herokuapp.com/
+This site is stored in the "my-react-portfolio" repository on Alix's github account (username: awebb8). This repository is public. \
+Link to repository: https://github.com/awebb8/my-react-portfolio \
+Link to deployed site on Heroku: https://alix-react-portfolio.herokuapp.com/ \
+Link to deployed site on Github Pages: https://awebb8.github.io/my-react-portfolio/
 
 ## Project Goal
 Create a personal portfolio website using react.
