@@ -10,9 +10,9 @@ function Navbar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ml-auto">
-                <li className="nav-item active">
+                {/* <li className="nav-item active">
                   <Link to="/contact" className="nav-link">Contact</Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link to="/portfolio" className="nav-link">Portfolio</Link>
                 </li>
