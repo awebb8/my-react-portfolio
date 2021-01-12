@@ -15,7 +15,6 @@ function PortfolioCard() {
     return (
       <section className="container-fluid" style={{marginBottom:"5%"}}>
       <div className="row">
-          {/* <div style={{width:"94%"}}> */}
           <div className="col-sm-12">
                   <div className="card main-card"  style={{margin:"3% 3% 10% 3%"}}>
                     <div className="card-header">
@@ -42,6 +41,8 @@ function PortfolioCard() {
                         <a className="project-links" href ="https://github.com/awebb8/project-1" target="_blank">View Github</a>
                         <b> • </b>
                         <a className="project-links" href="https://awebb8.github.io/project-1/" target="_blank">View Application</a>
+                        <b> • </b>
+                        <Link className="project-links" to="/WhatsForDinner"> More Info</Link>
                       </div>
                     </div>
 
