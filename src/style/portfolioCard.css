@@ -41,7 +41,6 @@ a:hover {
   .crop {
     width: 100%!important;
     height: 100%!important;
-    border: 1px solid #4181ad!important;
     object-fit: cover;
     overflow: hidden;
   }

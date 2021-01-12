@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer";
+import AllHues from "./pages/PortfolioPages/AllHues"
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route exact path={"/portfolio"}>
             <Portfolio />
+          </Route>
+          <Route exact path={"/AllHues"}>
+            <AllHues />
           </Route>
         </Switch>
         <Footer />
