@@ -13,11 +13,11 @@ import AllHues from "../assets/images/allhues-homepage.png";
 function PortfolioCard() {
 
     return (
-      <section className="container-fluid" style={{marginBottom:"3%"}}>
+      <section className="container-fluid" style={{marginBottom:"5%"}}>
       <div className="row">
           {/* <div style={{width:"94%"}}> */}
           <div className="col-sm-12">
-                  <div className="card main-card"  style={{margin:"3%"}}>
+                  <div className="card main-card"  style={{margin:"3% 3% 10% 3%"}}>
                     <div className="card-header">
                       <h1>Portfolio</h1>
                     </div>
