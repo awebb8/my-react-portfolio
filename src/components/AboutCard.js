@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import "../style/aboutCard.css";
-import profilePicture from "../assets/images/alix-profile-pic.JPG";
+import profilePicture from "../assets/images/Alix.png";
 import Résumé from "../assets/Webb, Alix - Resume.pdf"
 
 function AboutCard() {

@@ -32,7 +32,7 @@ function WhatsForDinner() {
                                 </ul>
                                 <br/>
                                 <b>Created Using:</b><br/>
-                                HTML, CSS, JavaScript, JQuery, AJAX, Spoonacular API, Yelp API, Google Maps API, Github Pages
+                                HTML, CSS, JavaScript, JQuery, AJAX, local storage, Spoonacular API, Yelp API, Google Maps API, Github Pages
                                 <br/>
                                 <br/>
                                 <b>User Story</b><br/>
