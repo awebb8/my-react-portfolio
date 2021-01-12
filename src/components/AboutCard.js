@@ -6,11 +6,10 @@ import Résumé from "../assets/Webb, Alix - Resume.pdf"
 
 function AboutCard() {
     return (
-        <section className="container-fluid" style={{margin:"3%"}}>
+        <section className="container-fluid" style={{marginBottom:"3%"}}>
             <div className="row">
-                <div className="col-sm-7">
-                {/* <div style={{width:"94%"}}> */}
-                    <div className="card main-card">
+                <div className="col-sm-8">
+                    <div className="card main-card" style={{margin:"5%"}}>
                         <div className="card-header">
                         <h1>About Me</h1>
                         </div>
@@ -21,10 +20,9 @@ function AboutCard() {
                             </p>
                         </div>
                     </div>
-                {/* </div> */}
                 </div>
                 <div className="col-sm-4">
-                <div className="card main-card">
+                <div className="card main-card" style={{margin:"10% 10% 0 0"}}>
                         <div className="card-header">
                         <h1>Let's Connect</h1>
                         </div>

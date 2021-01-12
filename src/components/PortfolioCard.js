@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import "../style/portfolioCard.css"
 import eatDaBurger from "../assets/images/eat-da-burger-image.png";
 import employeeSummary from "../assets/images/employee-summary-img.png";
@@ -12,15 +13,16 @@ import AllHues from "../assets/images/allhues-homepage.png";
 function PortfolioCard() {
 
     return (
-      <section className="container-fluid" style={{margin:"3%"}}>
+      <section className="container-fluid" style={{marginBottom:"3%"}}>
       <div className="row">
-          <div style={{width:"94%"}}>
-                  <div className="card main-card">
+          {/* <div style={{width:"94%"}}> */}
+          <div className="col-sm-12">
+                  <div className="card main-card"  style={{margin:"3%"}}>
                     <div className="card-header">
                       <h1>Portfolio</h1>
                     </div>
+                    <Link to="/about" style={{textAlign:"right"}}>Back to About</Link>
                     <div className="card-body">
-
                     <div className="card project-card" style={{width:"26rem"}}>
                       <img className="crop project-image" src={AllHues} alt="AllHues" style={{width:"350px", height:"350px"}}/>
                       <div className="card-body" style={{textAlign:"center"}}>
@@ -28,8 +30,8 @@ function PortfolioCard() {
                         <a className="project-links" href ="https://github.com/awebb8/allhues" target="_blank">View Github</a>
                         <b> • </b>
                         <a className="project-links" href="https://allhues.herokuapp.com/" target="_blank">View Application</a>
-                        <p></p>
-                        <p style={{fontSize:"12px"}}>Created using:  React, MERN Stack, MongoDB, JWT, Cloudinary API, Node.js, JavaScript, CSS, HTML, Heroku</p>
+                        <b> • </b>
+                        <Link className="project-links" to="/AllHues"> More Info</Link>
                       </div>
                     </div>
 
