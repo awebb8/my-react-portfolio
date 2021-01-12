@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer id="footer">
             <p>
-                &copy; Copyright
+                Created with React  |  Deployed with AWS
             </p>
         </footer>
     );
