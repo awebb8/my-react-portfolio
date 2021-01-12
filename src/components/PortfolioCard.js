@@ -10,6 +10,7 @@ import weatherDashboard from "../assets/images/weather-dashboard.png";
 import AllHues from "../assets/images/allhues-homepage.png";
 
 function PortfolioCard() {
+
     return (
       <section className="container-fluid" style={{margin:"3%"}}>
       <div className="row">
@@ -21,12 +22,14 @@ function PortfolioCard() {
                     <div className="card-body">
 
                     <div className="card project-card" style={{width:"26rem"}}>
-                      <img className="crop project-image" src={AllHues} alt="AllHues"  style={{width:"350px", height:"350px"}}/>
+                      <img className="crop project-image" src={AllHues} alt="AllHues" style={{width:"350px", height:"350px"}}/>
                       <div className="card-body" style={{textAlign:"center"}}>
                         <h5 className="card-title">AllHues</h5>
                         <a className="project-links" href ="https://github.com/awebb8/allhues" target="_blank">View Github</a>
                         <b> • </b>
                         <a className="project-links" href="https://allhues.herokuapp.com/" target="_blank">View Application</a>
+                        <p></p>
+                        <p style={{fontSize:"12px"}}>Created using:  React, MERN Stack, MongoDB, JWT, Cloudinary API, Node.js, JavaScript, CSS, HTML, Heroku</p>
                       </div>
                     </div>
 
