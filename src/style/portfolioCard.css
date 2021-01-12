@@ -20,14 +20,13 @@ a:hover {
 }
 
 /* image style */
-img .project-image {
+.project-image {
   border: 1px solid #4181ad!important;
 }
 
 .crop {
   width: 350px;
   height: 350px;
-  border: 1px solid #4181ad!important;
   object-fit: cover;
   overflow: hidden;
 }
